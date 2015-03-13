@@ -76,3 +76,4 @@ ril.external.md=0
 ro.sf.hwrotation=0
 ril.current.share_modem=2
 ril.radiooff.poweroffMD=0
+persist.mtk.wcn.combo.chipid=0x6628
