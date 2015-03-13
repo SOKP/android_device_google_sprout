@@ -108,9 +108,16 @@ PRODUCT_PACKAGES += \
     setup_fs \
     e2fsck \
 	
-PRODUCT_AAPT_CONFIG := normal hdpi
-PRODUCT_AAPT_PREF_CONFIG := hdpi
 
+# Wifi
+PRODUCT_PACKAGES += \
+    libwcnss_qmi \
+    wcnss_service \
+    libwpa_client \
+    hostapd \
+    wpa_supplicant \
+    wpa_supplicant.conf
+    
 PRODUCT_PACKAGES += Torch
 
 # call the proprietary setup
