@@ -111,10 +111,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
-# Wifi
+# wpa_supplicant
 PRODUCT_PACKAGES += \
-    libwcnss_qmi \
-    wcnss_service \
     libwpa_client \
     hostapd \
     wpa_supplicant \
